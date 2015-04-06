@@ -7,15 +7,15 @@ ext {
 }
 
 android {
-    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
-    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
     compileOptions.encoding = 'windows-1251'
 
     defaultConfig {
-        minSdkVersion Integer.parseInt(project.ANDROID_BUILD_MIN_SDK_VERSION)
-        targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
-        versionName project.VERSION_NAME
-        versionCode Integer.parseInt(project.VERSION_CODE)
+        minSdkVersion 9
+        targetSdkVersion 21
+        versionName "1.8.8"
+        versionCode 1
     }
 
     buildTypes {
